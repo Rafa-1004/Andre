@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="pt - br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main class = "caixa-login">
+    <h1>Faça seu cadastro</h1>
+    <p>Digite seus dados para entrar.</p>
+
+    <form>
+            <label for="usuario"> Nome:</label>
+            <input
+                type = "text"
+                id = "usuario"
+                name = "usuario"
+                placeholder = "Digite seu nome"
+                autocomplete = "username"
+                required
+>
+            <label for="telefone"> Telefone:</label>
+            <input
+                type = "text"
+                id = "telefone"
+                name = "senha"
+                placeholder = "Digite seu telefone"
+                autocomplete = "cc-number"
+                required
+>
+<label for="senha"> Crie sua senha:</label>
+            <input
+                type = "password"
+                id = "senha"
+                name = "senha"
+                placeholder = "Digite sua senha"
+                autocomplete = "current-password"
+                required
+>
+            <button type="button"> Cadastrar</button>
+
+            <button type="button"> Sair</button>
+        </form>
+    </main>
+</body>
+</html>
