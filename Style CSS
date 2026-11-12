@@ -1,0 +1,47 @@
+body {
+    background-color:#f0e4ee;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+}
+.caixa-login {
+    background-color: rgb(189, 139, 170);
+    max-width: 300px;
+    margin: 0px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+h1 {
+    color: #551c5a;
+    text-align: center;
+}
+p {
+    color: #551c5a;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-top: 15px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #660080;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #660080;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #660080;
+}
+
