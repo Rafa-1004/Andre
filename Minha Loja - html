@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <!-- Cabeçalho com barra de pesquisa -->
+    <header>
+        <h1>Minha Loja</h1>
+
+        <div class="pesquisa">
+            <input
+                type="search"
+                placeholder="Pesquisar produtos..."
+                aria-label="Pesquisar produtos"
+            >
+            <button type="button">Buscar</button>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <h2>Nossos produtos</h2>
+        <p>Confira os itens disponíveis na nossa loja.</p>
+
+        <section class="produtos" aria-label="Produtos disponíveis">
+
+            <!-- Primeiro produto -->
+            <article class="produto">
+                <img
+                    src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&quot;
+                    alt="Camiseta branca"
+                    class="imagem-produto"
+                >
+                <h3>Camiseta</h3>
+                <p>Camiseta confortável para o dia a dia.</p>
+                <p class="preco">R$ 49,90</p>
+                <button type="button">Comprar</button>
+            </article>
+
+            <!-- Segundo produto -->
+            <article class="produto">
+                <img
+                    src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&quot;
+                    alt="Tênis vermelho"
+                    class="imagem-produto"
+                >
+                <h3>Tênis</h3>
+                <p>Tênis leve para caminhar com conforto.</p>
+                <p class="preco">R$ 129,90</p>
+                <button type="button">Comprar</button>
+            </article>
+
+            <!-- Terceiro produto -->
+            <article class="produto">
+                <img
+                    src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&quot;
+                    alt="Mochila"
+                    class="imagem-produto"
+                >
+                <h3>Mochila</h3>
+                <p>Mochila prática para estudar e passear.</p>
+                <p class="preco">R$ 89,90</p>
+                <button type="button">Comprar</button>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Minha Loja para Projeto de HTML e CSS</p>
+    </footer>
+
+</body>
+</html>
