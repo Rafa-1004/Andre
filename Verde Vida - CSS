@@ -1,0 +1,131 @@
+body {
+    background-color:antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+.produtos{
+    border: 5px solid rgb(45, 90, 34);
+        background-color:#e5ecb8;
+        max-width: 150%;
+        max-width: 200px;
+        justify-content: center;
+        margin: 20px auto;
+        padding: 40px;
+        border-radius: 50px;
+        align-items: center;
+            display: block;
+
+    margin:5 auto;
+    max-width: 85%;
+    display: flex;
+    flex: wrap;
+    gap: 15px;
+}
+
+.diva{
+    border: 5px solid #626b54;
+        background-color:#e5ecb8;
+        max-width: 100%;
+        max-width: 50px;
+        justify-content: center;
+        margin: 20px auto;
+        padding: 30px;
+        border-radius: 50px;
+        align-items: left;
+            display: flex;
+
+    margin:0 auto;
+    max-width: 85%;
+    display: flex;
+    flex: wrap;
+    gap: 10px;
+}
+
+
+img {
+    width:300px;
+    height: 300px;
+    margin: 5px;
+    align-items: center;
+    gap: 24px;
+    border: 5px solid rgb(54, 71, 48);
+    border-radius: 50px;
+}
+
+.diva img{
+    display: inline-flex;
+    width: 600px;
+}
+
+
+h1 {
+    color:rgb(56, 92, 45);
+    text-align: center;
+    height: 50px;
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(67, 109, 54);
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+    margin: 5px;
+}
+
+h3 {
+    color: rgb(61, 102, 48);
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+
+h4{
+    color: rgb(30, 80, 15);
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-size: 19px;
+    margin: 1px;
+}
+
+
+p {
+    color: rgb(45, 73, 37);
+    text-align: center;
+    
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #0b8000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #215f1c;
+    color: rgb(255, 254, 254);
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color:#0b8000;
+}
